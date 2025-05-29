@@ -50,3 +50,76 @@
   </footer>
 </body>
 </html>https://chatgpt.com/canvas/shared/6838824896088191afa892b57bd7f5be
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.hero {
+  background: url('https://images.unsplash.com/photo-1598514982903-38879aeb9b3c') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #00b894;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background-color: #019874;
+}
+.about, .contact {
+  background: #f9f9f9;
+}
+.services {
+  background: #fff;
+}
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2d3436;
+}
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+.service-card {
+  padding: 20px;
+  background: #f1f2f6;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #dfe6e9;
+  font-size: 0.9rem;
+  color: #636e72;
+}
